@@ -1,0 +1,259 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/*custom styles */
+
+.header {
+  background-color: rgb(20, 13, 66);
+  text-align: center;
+  padding: 20px;
+}
+header nav a {
+  color: white;
+  margin-left: 25px;
+  font-size: 30px;
+  text-decoration: none;
+}
+.active,.blog{
+  color: green;
+ }
+
+
+.container{
+    max-width: 1300px;
+    margin:0 auto; 
+   padding: 20px;
+}
+/* .box{
+   display: inline-block;
+    width: auto;
+    border: 1px solid red;
+    margin: 30px 120px;
+   
+ 
+
+}
+
+details{
+    
+    margin: o auto;
+}
+ img{
+width: 300px;
+}
+.pics{
+    width: 300px;
+    height: auto;
+    display: inline-block;
+    border: 1px solid red;
+    margin: 60px  auto;
+} */
+.first-section {
+  margin-top: 20px;
+}
+
+.article-image {
+  display: inline-block;
+}
+
+.article-details {
+  display: inline-block;
+  width: 550px;
+  margin-left: 25px;
+}
+
+.article-details h2 {
+  font-size: 28px;
+  font-weight: 600;
+  
+  font-family: 'Roboto', sans-serif;
+}
+
+.article-details p {
+  font-size: 20px;
+  line-height: 25px;
+  font-weight: 400;
+  margin-bottom: 52px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.article-details a {
+  display: inline-block;
+  color: white;
+  background-color: green;
+  padding: 10px 23px;
+  border-radius: 20px;
+  font-size: 17px;
+  text-decoration: none;
+  position: relative;
+  bottom: 20px;
+}
+
+.first-article{
+  display: inline-block;
+  width: 500px;
+  
+  
+}
+.second-article{
+  display: inline-block;
+  width: 500px;
+  margin-left: 100px;
+ 
+}
+.first-article h2 {
+  font-size: 28px;
+  font-weight: 600;
+  margin: 15px auto;
+  padding: 10px;
+  font-family: 'Roboto', sans-serif;
+}
+
+article p{
+  font-size: 20px;
+  padding: 10px;
+  line-height: 30px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  
+}
+ h3 {
+  font-size: 26px;
+  font-weight: 600;
+  margin-top: 20px;
+  line-height: 30px;
+  
+  font-family: 'Roboto', sans-serif;
+ }
+ 
+  .tag {
+  color: rgb(71, 122, 71);
+  font-size: 20px;
+
+ }
