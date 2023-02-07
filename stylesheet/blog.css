@@ -150,30 +150,7 @@ header nav a {
     margin:0 auto; 
    padding: 20px;
 }
-/* .box{
-   display: inline-block;
-    width: auto;
-    border: 1px solid red;
-    margin: 30px 120px;
-   
- 
 
-}
-
-details{
-    
-    margin: o auto;
-}
- img{
-width: 300px;
-}
-.pics{
-    width: 300px;
-    height: auto;
-    display: inline-block;
-    border: 1px solid red;
-    margin: 60px  auto;
-} */
 .first-section {
   margin-top: 20px;
 }
@@ -199,7 +176,7 @@ width: 300px;
   font-size: 20px;
   line-height: 25px;
   font-weight: 400;
-  margin-bottom: 52px;
+  margin-bottom: 40px;
   font-family: 'Roboto', sans-serif;
 }
 
